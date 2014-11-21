@@ -3,3 +3,12 @@ layout: default
 ---
 
 <h1>About the Project</h1>
+
+<ul>
+	{% for project in site.posts %}
+	<li>
+		<a href="">{{project.title}}</a>
+		<p>{{project.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
