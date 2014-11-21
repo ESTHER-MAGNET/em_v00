@@ -5,7 +5,7 @@ layout: default
 <h1>About the Project</h1>
 
 <ul>
-	{% for project in site.posts %}
+	{% for project in site.categories.project limit:10 %}
 	<li>
 		<a href="">{{project.title}}</a>
 		<p>{{project.meta}}</p>
