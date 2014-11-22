@@ -3,3 +3,12 @@ layout: project
 ---
 
 <h1>Team</h1>
+
+<ul>
+	{% for member in site.categories.team %}
+	<li>
+		<a href="{{site.baseurl}}{{member.url}}">{{member.title}}</a>
+		<p>{{member.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

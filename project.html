@@ -7,7 +7,7 @@ layout: project
 <ul>
 	{% for project in site.categories.project limit:10 %}
 	<li>
-		<a href="">{{project.title}}</a>
+		<a href="{{site.baseurl}}{{project.url}}">{{project.title}}</a>
 		<p>{{project.meta}}</p>
 	</li>
 	{% endfor %}
