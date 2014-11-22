@@ -5,10 +5,12 @@ layout: project
 <h1>Team</h1>
 
 <ul>
-	{% for member in site.categories.team %}
+	{% for member in site.pages %}
+		{% if member.type == 'project-member' %}
 	<li>
 		<a href="{{site.baseurl}}{{member.url}}">{{member.title}}</a>
 		<p>{{member.meta}}</p>
 	</li>
+		{% endif %}
 	{% endfor %}
 </ul>
