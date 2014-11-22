@@ -1,5 +1,5 @@
 ---
-layout: team
+layout: project-article
 title: Sandra Barteit
 meta: Scientific Researcher, M.A.
 category: team
