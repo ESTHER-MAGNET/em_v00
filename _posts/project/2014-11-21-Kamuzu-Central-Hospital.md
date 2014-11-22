@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: project-article
 title: Kamuzu Central Hospital
 meta: KCH is a tertiary 800-bed-hospital administered by the Ministry of Health. 
 category: project

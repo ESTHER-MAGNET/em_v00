@@ -1,5 +1,5 @@
 ---
-layout: team
+layout: project-article
 title: Dr. Florian Neuhann
 meta: Senior Researcher
 category: team
