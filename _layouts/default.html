@@ -1,24 +1,9 @@
-<!DOCTYPE>
-<html lang="en-ca">
-<head>
-	<meta charset="utf-8">
-	<title>{% if page.title %}{{page.title}} - {% endif %}ESTHER-MAGNET</title>
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
-	<meta name="description" content="{{page.meta}}">
-</head>
-
+{% include head.html %}
 <body>
-	<header class="masthead">
-		<h1>ESTHER-MAGNET</h1>
-		{% include nav.html navclass='nav-top'%}
-	</header>
-
-	{{content}}
-
-	<footer>
-		{% include nav.html navclass='nav-bottom'%}
-		<p>© Institute of Public Health, Heidelberg University</p>
-	</footer>
+  
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
 
 </body>
 <html>
