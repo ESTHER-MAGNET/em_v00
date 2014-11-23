@@ -1,0 +1,10 @@
+<nav>
+	<ul>
+	{% for material in site.folder%}
+		<li>
+			<a href="{{site.baseurl}}/project/materials/{{material.folder}}/">{{material.title}}</a>
+		</li>
+
+		{% endfor %}
+	</ul>
+</nav>

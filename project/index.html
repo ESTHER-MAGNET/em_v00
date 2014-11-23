@@ -1,0 +1,17 @@
+---
+layout: project
+title: About the Project
+meta: About the ESTHER-MAGNET Project
+priority: 0.5
+---
+
+<h1>About the Project</h1>
+
+<ul>
+	{% for project in site.categories.project limit:10 %}
+	<li>
+		<a href="{{site.baseurl}}{{project.url}}">{{project.title}}</a>
+		<p>{{project.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

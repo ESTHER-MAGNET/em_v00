@@ -1,0 +1,11 @@
+<ul>
+	{% for element in site.pages %}
+		{% if element.type == include.type %}
+	<li>
+		<a href="{{site.baseurl}}{{element.url}}">{{element.title}}</a>
+		<p><img src="{{site.baseurl}}/img/team/{{element.image}}" alt="{{element.title}}"></p>
+		<p>{{element.meta}}</p>
+	</li>
+		{% endif %}
+	{% endfor %}
+</ul>
