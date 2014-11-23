@@ -1,0 +1,9 @@
+<nav>
+	<ul>
+	{% for project in site.categories.material-type %}
+		<li>
+			<a href="{{site.baseurl}}/project/materials/{{material.folder}}/">{{material.title}}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</nav>

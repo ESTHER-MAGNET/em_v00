@@ -1,7 +1,8 @@
 ---
 title: Antje Theurer Article
-category: publication-type
-folder: publication
+category: material-type
+type: publication
+folder: publications
 ---
 
 Antje Theurers Publication. 

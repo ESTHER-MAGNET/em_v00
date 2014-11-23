@@ -24,3 +24,11 @@ html {
 .nav-top {
 	font-size: 1.25rem;
 }
+
+.masthead {
+	padding: 1em;
+	background: #000531 url("") no-repeat center center;
+	background-size: cover;
+
+	color: #fff;
+}

@@ -1,7 +1,8 @@
 ---
 title: Florian Neuhann Article
-category: publication-type
-folder: publication
+category: material-type
+type: publication
+folder: publications
 ---
 
 Florian Neuhann Publication. 
